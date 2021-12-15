@@ -1,0 +1,72 @@
+name: nova
+version: 1.0.0+1
+description: nil
+
+publish_to: "none"
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  bitsdojo_window: ^0.1.1+1
+  provider: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Air
+      fonts:
+        - asset: assets/fonts/air/air.ttf
+    - family: Square
+      fonts:
+        - asset: assets/fonts/square/square3.ttf
+          weight: 300
+        - asset: assets/fonts/square/square4.ttf
+          weight: 400
+        - asset: assets/fonts/square/square7.ttf
+          weight: 700
+        - asset: assets/fonts/square/square9.ttf
+          weight: 900
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/roboto/roboto1.ttf
+          weight: 100
+        - asset: assets/fonts/roboto/roboto1i.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/roboto/roboto3.ttf
+          weight: 300
+        - asset: assets/fonts/roboto/roboto3i.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/roboto/roboto4.ttf
+          weight: 400
+        - asset: assets/fonts/roboto/roboto4i.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/roboto/roboto5.ttf
+          weight: 500
+        - asset: assets/fonts/roboto/roboto5i.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/roboto/roboto7.ttf
+          weight: 700
+        - asset: assets/fonts/roboto/roboto7i.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/roboto/roboto9.ttf
+          weight: 900
+        - asset: assets/fonts/roboto/roboto9i.ttf
+          weight: 900
+          style: italic
